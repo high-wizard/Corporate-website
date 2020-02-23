@@ -26,7 +26,7 @@ export default {
   css: ['reset-css'],
   webfontloader: {
     google: {
-      families: ['Montserrat:500']
+      families: ['Montserrat:400,700', 'Noto+Sans+JP:400,700']
     }
   },
   /*

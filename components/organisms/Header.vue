@@ -1,17 +1,17 @@
 <template lang="pug">
   header.header
-    .headerContents
+    nav.headerContents
       Logo
       img.humburger(src='@/assets/icon/Hamburger.svg' @click='toggleHamburgerMenuDisplay')
       ul.headerMenu(v-if='hamburgerMenuDisplay')
         li.headerMenuItem
-          n-link(to='#') COMPANY
+          n-link(to='/company') COMPANY
         li.headerMenuItem
-          n-link(to='#') SERVICE
+          n-link(to='/service') SERVICE
         li.headerMenuItem
-          n-link(to='#') CONTACT
+          n-link(to='/contact') CONTACT
         li.headerMenuItem
-          n-link(to='#') RECRUIT
+          n-link(to='/recruit') RECRUIT
 </template>
 
 <script>
@@ -47,7 +47,6 @@ export default {
     align-items: center
 
   .headerMenuItem
-    font-family: 'Montserrat'
     a
       text-decoration: none
       color: #040e17
@@ -66,11 +65,12 @@ export default {
   @media screen and (max-width: 719px)
     .headerMenu
       display: block
-      width: calc(100% - 20px * 2)
+      width: 100%
       text-align: right
       position: absolute
       top: 79px
-      right: 20px
+      right: 0px
+      padding-right: 20px
       border-bottom: 1px solid #d6d8dc
       background: #ffffff
       .headerMenuItem
