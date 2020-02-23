@@ -1,6 +1,6 @@
 <template lang="pug">
   header.header
-    .headerContents
+    nav.headerContents
       Logo
       img.humburger(src='@/assets/icon/Hamburger.svg' @click='toggleHamburgerMenuDisplay')
       ul.headerMenu(v-if='hamburgerMenuDisplay')
@@ -47,7 +47,6 @@ export default {
     align-items: center
 
   .headerMenuItem
-    font-family: 'Montserrat'
     a
       text-decoration: none
       color: #040e17
