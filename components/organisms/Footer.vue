@@ -16,7 +16,15 @@
               span.postalCode 〒060-0041
               span 札幌市中央区大通東4丁目4-53
               spab.building ヒューガ大通スイート401
-          .footerNav
+          ul.footerNav
+            li.footerNavItem
+              n-link(to='/company') COMPANY
+            li.footerNavItem
+              n-link(to='/service') SERVICE
+            li.footerNavItem
+              n-link(to='/contact') CONTACT
+            li.footerNavItem
+              n-link(to='/recruit') RECRUIT
 
 </template>
 
@@ -65,6 +73,8 @@ export default {
 .footerContents
   margin-top: 60px
   font-size: 14px
+  display: flex
+  justify-content: space-between
 
   .address
     margin-top: 20px
@@ -73,4 +83,14 @@ export default {
       display: block
     .building
       display: inline-block
+
+  .footerNavItem
+    margin: 0 0 15px
+    a
+      color: #ffffff
+      text-decoration: none
+  @media screen and (max-width: 719px)
+    display: block
+    .footerNav
+      display: none
 </style>
