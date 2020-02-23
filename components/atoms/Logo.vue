@@ -1,6 +1,6 @@
 <template lang="pug">
   n-link(to='/').logo
-    img(src='@/assets/image/Logo.svg')
+    img(src='@/assets/icon/Logo.svg')
 </template>
 
 <style lang="sass" scoped>

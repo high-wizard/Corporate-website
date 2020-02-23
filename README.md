@@ -21,3 +21,9 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 - Branch protection rules
   - master: require PR with build-test
+
+## Cording Rule
+
+### Function vs Arrow
+
+methods,mounted 内では Function(`function () {}`)、data では Arrow(`() => {}`)を用いる
