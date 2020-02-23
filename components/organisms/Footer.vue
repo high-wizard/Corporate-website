@@ -3,9 +3,7 @@
     section.information
       .wrapper
         .contact
-          h3.informationTitle
-            .english CONTACT
-            .japanese お問い合わせ
+          Heading(type='secondary' text='CONTACT' subText='お問い合わせ')
           p.contactTo 011-600-2455
             span.or or
             n-link(to='contact').link Contact Us
@@ -32,10 +30,12 @@
 
 <script>
 import Logo from '@/components/atoms/Logo'
+import Heading from '@/components/atoms/Heading'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Heading
   }
 }
 </script>
@@ -50,17 +50,6 @@ export default {
   max-width: 1040px
   margin: 0 auto
   padding: 0 20px
-
-.informationTitle
-  .english
-    font-size: 20px
-    font-weight: bold
-    line-height: 24px
-    letter-spacing: 0.2em
-  .japanese
-    font-size: 16px
-    font-weight: bold
-    margin-top: 10px
 
 .contactTo
   margin-top: 30px
