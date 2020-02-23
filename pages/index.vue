@@ -1,5 +1,5 @@
 <template lang="pug">
-  Heading(type='tertiary' text='test')
+  Heading(type='secondary' text='TEST')
 </template>
 
 <script>
