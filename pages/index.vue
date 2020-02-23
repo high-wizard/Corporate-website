@@ -1,7 +1,14 @@
-<template> </template>
+<template lang="pug">
+  Heading(type='tertiary' text='test')
+</template>
 
 <script>
-export default {}
+import Heading from '@/components/atoms/Heading'
+export default {
+  components: {
+    Heading
+  }
+}
 </script>
 
 <style lang="sass" scoped></style>
