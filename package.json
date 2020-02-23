@@ -5,14 +5,20 @@
   "author": "sKawashima",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --spa",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-0",
-    "nuxt": "^2.0.0"
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "nuxt-webfontloader": "^1.1.0",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "reset-css": "^5.0.1",
+    "sass-loader": "^8.0.2"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.10.0",
