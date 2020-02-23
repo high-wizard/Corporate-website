@@ -25,6 +25,8 @@
               n-link(to='/contact') CONTACT
             li.footerNavItem
               n-link(to='/recruit') RECRUIT
+    section.copyright
+      p © High Wizard Inc.
 
 </template>
 
@@ -93,4 +95,13 @@ export default {
     display: block
     .footerNav
       display: none
+
+.copyright
+  font-size: 14px
+  color: #ffffff
+  height: 50px
+  background: #040e17
+  display: flex
+  align-items: center
+  justify-content: center
 </style>
