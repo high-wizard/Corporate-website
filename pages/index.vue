@@ -3,6 +3,9 @@
     HeroView(topText='株式会社ハイウィザードは札幌市でWeb制作を行うクリエイティブ集団です。<br>ホームページ制作を軸に、システム開発、各種コンテンツ制作などを行っています。' imgSrc='/image/contact.jpg')
     section.news
       Heading(type='secondary' text='NEWS')
+      .container
+        HomeNewsItem(title='ホームページ制作受付のお知らせ' introduction='WEBサイト、HP制作業務の請負を開始しております。' link='ご用命の方はこちら' linkTo='/contact')
+        HomeNewsItem(title='弊社Webサイトをリニューアル致しました' introduction='株式会社ハイウィザード ホームページにアクセスいただき誠にありがとうございます。皆様がより情報を探しやすくなるようホームページをリニューアル致しました。これからもよろしくお願い申し上げます。' date='2020.2.29')
     section.aboutUs
       .img.--pc
       .contents
@@ -26,17 +29,30 @@
 import CompanyOverview from '@/components/organisms/CompanyOverview'
 import Heading from '@/components/molecules/Heading'
 import HeroView from '@/components/organisms/HeroView'
+import HomeNewsItem from '@/components/organisms/HomeNewsItem'
 
 export default {
   components: {
     CompanyOverview,
     Heading,
-    HeroView
+    HeroView,
+    HomeNewsItem
   }
 }
 </script>
 
 <style lang="sass" scoped>
+.news
+  margin: 0 auto
+  max-width: 1040px
+  padding: 0 20px
+  .container
+    @media screen and (min-width: 720px)
+      display: grid
+      grid-gap: 40px
+      grid-template-columns: 1fr 1fr
+
+
 .aboutUs
   margin: 120px auto 0
   max-width: 1040px
