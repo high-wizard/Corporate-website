@@ -29,7 +29,7 @@ export default {
     margin: 60px auto 0
 
 .introduction
-  color: #040E17
+  color: #040e17
   font-size: 14px
   line-height: 1.7
   margin-top: 10px

@@ -1,7 +1,8 @@
 <template lang="pug">
   section.heroView(:style='setBgImageUrl')
     .wrapper
-      Heading.heroHeading(type='main' :text='headingText' :subText='headingSubText')
+      Heading.heroHeading(v-if='headingText && headingSubText' type='main' :text='headingText' :subText='headingSubText' color='#ffffff')
+      p.topText(v-if='topText' v-html='topText')
 </template>
 
 <script>
@@ -19,7 +20,8 @@ export default {
   props: {
     headingText: String,
     headingSubText: String,
-    imgSrc: String
+    imgSrc: String,
+    topText: String
   }
 }
 </script>
@@ -59,9 +61,17 @@ export default {
 .wrapper
   max-width: 1040px
   width: calc(100% - 40px)
-  margin: auto auto 40px
+  margin: auto auto 20px
   padding: 0 20px
 
 .heroHeading
   color: #ffffff
+  margin-bottom: 20px
+
+.topText
+  color: #ffffff
+  line-height: 1.5
+  font-size: 14px
+  letter-spacing: .1em
+  max-width: calc(90%)
 </style>
