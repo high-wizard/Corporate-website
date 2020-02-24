@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
 .wrapper
   font-family: 'Montserrat', 'Noto Sans JP', san-serif
 </style>

@@ -1,12 +1,16 @@
 <template lang="pug">
-  Heading(type='secondary' text='TEST')
+  div
+    HeroView(headingText='TEST' headingSubText='サブテキスト' imgSrc='/image/contact.jpg')
 </template>
 
 <script>
 import Heading from '@/components/molecules/Heading'
+import HeroView from '@/components/organisms/HeroView'
+
 export default {
   components: {
-    Heading
+    Heading,
+    HeroView
   }
 }
 </script>

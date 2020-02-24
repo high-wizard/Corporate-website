@@ -13,7 +13,7 @@
             p.address
               span.postalCode 〒060-0041
               span 札幌市中央区大通東4丁目4-53
-              spab.building ヒューガ大通スイート401
+              span.building ヒューガ大通スイート401
           ul.footerNav
             li.footerNavItem
               n-link(to='/company') COMPANY

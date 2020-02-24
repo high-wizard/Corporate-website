@@ -1,11 +1,11 @@
 <template lang="pug">
-  component
+  div
     h1(v-if='type === "main"')
       | {{ text }}
-      p.subText(v-if='subText === ""') {{ subText }}
+      p.subText(v-if='subText !== ""') {{ subText }}
     h2(v-if='type === "secondary"')
       | {{ text }}
-      p.subText(v-if='subText === ""') {{ subText }}
+      p.subText(v-if='subText !== ""') {{ subText }}
     h3(v-if='type === "tertiary"')
       | {{ text }}
 </template>
