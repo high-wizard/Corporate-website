@@ -7,18 +7,26 @@
         | more develop<br>
         | motto tanoshiku
       p.japanese 弊社のよき開発者による事業活動によって<br>
-        | もっと社会が発展し、もっと楽しくなるよう、<br>
+        | もっと社会が発展し、もっと楽しくなるように、<br>
         | 我々は努めてまいります。
+    section.companyOverview
+      Heading(type='secondary' text='会社概要' :centering='true')
+      CompanyOverview.companyOverviewTable
+    section.access
+      Heading(type='secondary' text='アクセス' :centering='true')
+
 </template>
 
 <script>
 import HeroView from '@/components/organisms/HeroView'
 import Heading from '@/components/molecules/Heading'
+import CompanyOverview from '@/components/organisms/CompanyOverview'
 
 export default {
   components: {
     HeroView,
-    Heading
+    Heading,
+    CompanyOverview
   }
 }
 </script>
@@ -40,4 +48,15 @@ export default {
     color: #686e73
     font-size: 14px
     line-height: 1.7
+    @media screen and (max-width: 349px)
+      font-size: 12px
+
+.companyOverview
+  margin-top: 120px
+  padding: 0 20px
+  .companyOverviewTable
+    margin: 60px auto 0
+
+.access
+  margin-top: 120px
 </style>
