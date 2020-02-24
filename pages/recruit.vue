@@ -96,8 +96,8 @@ export default {
     margin-top: 10px
 
 .recruitInfomation
-  width: fit-content;
-  margin: 120px auto 0;
+  width: fit-content
+  margin: 120px auto 0
 
 .item,
   margin-top: 60px
