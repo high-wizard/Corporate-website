@@ -27,6 +27,10 @@ export default {
   margin: 60px 20px 0
   &:only-child
     margin: 60px auto 0
+  @media screen and (max-width: 719px)
+    max-width: unset
+    &:only-child
+      margin: 60px 20px 0
 
 .introduction
   color: #040e17

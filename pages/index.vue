@@ -95,6 +95,7 @@ export default {
 
 .companyOverview
   margin-top: 120px
+  padding: 0 20px
   .companyOverviewTable
     margin: 60px auto 0
 </style>
