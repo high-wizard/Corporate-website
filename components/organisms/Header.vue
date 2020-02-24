@@ -34,6 +34,7 @@ export default {
   },
   mounted: function() {
     this.initHamburgerMenuDisplay()
+    window.addEventListener('resize', this.initHamburgerMenuDisplay)
   }
 }
 </script>
