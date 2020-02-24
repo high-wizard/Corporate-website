@@ -41,6 +41,11 @@ export default {
 <style lang="sass" scoped>
 .header
   border-bottom: 1px solid #d6d8dc
+  position: fixed
+  width: 100%
+  top: 0
+  background: #ffffff
+  z-index: 100
   .headerContents
     max-width: 1040px
     margin: 0 auto
