@@ -27,6 +27,11 @@ export default {
     HeroView,
     Heading,
     CompanyOverview
+  },
+  head() {
+    return {
+      title: '会社案内 | 株式会社ハイウィザード'
+    }
   }
 }
 </script>

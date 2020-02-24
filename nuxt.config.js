@@ -4,14 +4,18 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'ja'
+    },
+    title: '株式会社ハイウィザード',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content:
+          '株式会社ハイウィザードは札幌市でWeb制作を行うクリエイティブ集団です。ホームページ制作を軸に、システム開発、各種コンテンツ制作などを行っています。'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
