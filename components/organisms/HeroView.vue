@@ -30,7 +30,7 @@ export default {
   height: 400px
   display: flex
   flex-direction: column
-  margin-bottom: 20px
+  margin-bottom: 120px
   @media screen and (max-width: 719px)
     height: 250px
   &:before

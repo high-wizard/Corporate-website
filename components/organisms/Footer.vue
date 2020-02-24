@@ -1,5 +1,5 @@
 <template lang="pug">
-  footer
+  footer.footer
     section.information
       .wrapper
         .contact
@@ -41,6 +41,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.footer
+  margin-top: 60px
+
 .information
   background: #2b3137
   color: #ffffff
