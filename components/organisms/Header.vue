@@ -5,13 +5,13 @@
       img.humburger(src='@/assets/icon/Hamburger.svg' @click='toggleHamburgerMenuDisplay')
       ul.headerMenu(v-if='hamburgerMenuDisplay')
         li.headerMenuItem
-          n-link(to='/company') COMPANY
+          n-link(to='/company' @click.native='initHamburgerMenuDisplay') COMPANY
         li.headerMenuItem
-          n-link(to='/service') SERVICE
+          n-link(to='/service' @click.native='initHamburgerMenuDisplay') SERVICE
         li.headerMenuItem
-          n-link(to='/contact') CONTACT
+          n-link(to='/contact' @click.native='initHamburgerMenuDisplay') CONTACT
         li.headerMenuItem
-          n-link(to='/recruit') RECRUIT
+          n-link(to='/recruit' @click.native='initHamburgerMenuDisplay') RECRUIT
 </template>
 
 <script>
@@ -27,10 +27,13 @@ export default {
   methods: {
     toggleHamburgerMenuDisplay: function() {
       this.hamburgerMenuDisplay = !this.hamburgerMenuDisplay
+    },
+    initHamburgerMenuDisplay: function() {
+      this.hamburgerMenuDisplay = window.innerWidth >= 720 ? true : false
     }
   },
   mounted: function() {
-    this.hamburgerMenuDisplay = window.innerWidth >= 720 ? true : false
+    this.initHamburgerMenuDisplay()
   }
 }
 </script>
@@ -73,6 +76,7 @@ export default {
       padding-right: 20px
       border-bottom: 1px solid #d6d8dc
       background: #ffffff
+      z-index: 100
       .headerMenuItem
         display: block
         margin: 2em 0
