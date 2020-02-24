@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Heading from '@/components/atoms/Heading'
+import Heading from '@/components/molecules/Heading'
 export default {
   components: {
     Heading
