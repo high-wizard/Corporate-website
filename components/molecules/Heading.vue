@@ -13,7 +13,7 @@
 <script>
 export default {
   props: {
-    type: String,
+    type: 'main' | 'secondary' | 'tertiary',
     text: String,
     subText: String
   }
@@ -25,11 +25,15 @@ h1
   font-size: 34px
   letter-spacing: .2em
   line-height: 1
+  @media screen and (max-width: 719px)
+    font-size: 28px
   .subText
     margin-top: 10px
     font-size: 20px
     letter-spacing: 0
     font-weight: bold
+    @media screen and (max-width: 719px)
+      font-size: 18px
 
 h2
   font-size: 20px
