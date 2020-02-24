@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    HeroView
+    HeroView(headingText='TEST' headingSubText='サブテキスト' imgSrc='/image/contact.jpg')
 </template>
 
 <script>

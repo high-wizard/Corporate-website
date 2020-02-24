@@ -1,7 +1,7 @@
 <template lang="pug">
-  section.heroView
+  section.heroView(:style='setBgImageUrl')
     .wrapper
-      Heading.heroHeading(type='main' text='Test' subText='サブテキスト')
+      Heading.heroHeading(type='main' :text='headingText' :subText='headingSubText')
 </template>
 
 <script>
@@ -10,6 +10,16 @@ import Heading from '@/components/molecules/Heading'
 export default {
   components: {
     Heading
+  },
+  computed: {
+    setBgImageUrl: function() {
+      return `--img-url: url(${this.imgSrc});`
+    }
+  },
+  props: {
+    headingText: String,
+    headingSubText: String,
+    imgSrc: String
   }
 }
 </script>
@@ -32,7 +42,9 @@ export default {
     content: ''
     display: block
     z-index: -1
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(104.04deg, rgba(21, 75, 120, 0.4) 0%, rgba(160, 213, 198, 0.4) 100%), linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url('~assets/image/contact.jpg')
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(104.04deg, rgba(21, 75, 120, 0.4) 0%, rgba(160, 213, 198, 0.4) 100%), linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0) 100%), var(--img-url)
+    background-size: cover
+    background-position: center
   &:after
     position: absolute
     right: 0
