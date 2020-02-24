@@ -21,6 +21,8 @@ export default {
   display: flex
   flex-direction: column
   margin-bottom: 20px
+  @media screen and (max-width: 719px)
+    height: 250px
   &:before
     position: absolute
     left: 0
@@ -44,7 +46,7 @@ export default {
 
 .wrapper
   max-width: 1040px
-  width: 100%
+  width: calc(100% - 40px)
   margin: auto auto 40px
   padding: 0 20px
 
