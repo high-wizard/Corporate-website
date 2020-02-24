@@ -1,21 +1,30 @@
 <template lang="pug">
   div
-    h1(v-if='type === "main"')
+    h1(v-if='type === "main"' :style='setTextAlign')
       | {{ text }}
-      p.subText(v-if='subText !== ""') {{ subText }}
-    h2(v-if='type === "secondary"')
+      p.subText(v-if='subText') {{ subText }}
+    h2(v-if='type === "secondary"' :style='setTextAlign')
       | {{ text }}
-      p.subText(v-if='subText !== ""') {{ subText }}
-    h3(v-if='type === "tertiary"')
+      p.subText(v-if='subText') {{ subText }}
+    h3(v-if='type === "tertiary"' :style='setTextAlign')
       | {{ text }}
 </template>
 
 <script>
 export default {
+  computed: {
+    setTextAlign: function() {
+      if (this.centering) {
+        return 'text-align: center;'
+      }
+      return ''
+    }
+  },
   props: {
     type: 'main' | 'secondary' | 'tertiary',
     text: String,
-    subText: String
+    subText: String,
+    centering: Boolean
   }
 }
 </script>
