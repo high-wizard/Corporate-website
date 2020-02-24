@@ -1,7 +1,8 @@
 <template lang="pug">
   .wrapper
     Header
-    nuxt
+    main.main
+      nuxt
     Footer
 </template>
 
@@ -20,4 +21,6 @@ export default {
 <style lang="sass">
 .wrapper
   font-family: 'Montserrat', 'Noto Sans JP', san-serif
+.main
+  margin-top: 80px
 </style>
