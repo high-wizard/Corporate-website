@@ -2,7 +2,7 @@
   .serviceItem
     Heading(type='tertiary' :text='title')
     p.introduction {{introduction}}
-    p.client 取引先：{{client}}
+    p.client(v-if='client') 取引先：{{client}}
 </template>
 
 <script>
@@ -25,6 +25,8 @@ export default {
   width: 100%
   max-width: 320px
   margin: 60px 20px 0
+  &:only-child
+    margin: 60px auto 0
 
 .introduction
   color: #040E17
