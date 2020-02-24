@@ -3,17 +3,17 @@
     HeroView(headingText='SERVICE' headingSubText='実績紹介' imgSrc='/image/service.jpg')
     .wrapper
       section.services
-        Heading(type='secondary' text='Webサイト 開発・運用' centering='true')
+        Heading(type='secondary' text='Webサイト 開発・運用' :centering='true')
         .serviceItemContainer
-          ServiceItem(v-for='s in webServiceList' :title='s[0]' :introduction='s[1]' :client='s[2]')
+          ServiceItem(v-for='(s, key, index) in webServiceList' :title='s[0]' :introduction='s[1]' :client='s[2]' :key='index')
       section.services
-        Heading(type='secondary' text='複合システム' centering='true')
+        Heading(type='secondary' text='複合システム' :centering='true')
         .serviceItemContainer
-          ServiceItem(v-for='s in combinedSystemList' :title='s[0]' :introduction='s[1]' :client='s[2]')
+          ServiceItem(v-for='(s, key, index) in combinedSystemList' :title='s[0]' :introduction='s[1]' :client='s[2]' :key='index')
       section.services
-        Heading(type='secondary' text='その他' centering='true')
+        Heading(type='secondary' text='その他' :centering='true')
         .serviceItemContainer
-          ServiceItem(v-for='s in otherList' :title='s[0]' :introduction='s[1]' :client='s[2]')
+          ServiceItem(v-for='(s, key, index) in otherList' :title='s[0]' :introduction='s[1]' :client='s[2]' :key='index')
 </template>
 
 <script>
