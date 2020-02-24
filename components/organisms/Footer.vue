@@ -6,7 +6,7 @@
           Heading.heading(type='secondary' text='CONTACT' subText='お問い合わせ' color='#ffffff')
           p.contactTo 011-600-2455
             span.or or
-            n-link(to='contact').link Contact Us
+            n-link(to='/contact').link Contact Us
         .footerContents
           .aboutUs
             Logo(mode='white')
