@@ -30,7 +30,7 @@
 
 <script>
 import Logo from '@/components/atoms/Logo'
-import Heading from '@/components/atoms/Heading'
+import Heading from '@/components/molecules/Heading'
 
 export default {
   components: {
