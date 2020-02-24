@@ -1,5 +1,5 @@
 <template lang="pug">
-  component
+  div
     h1(v-if='type === "main"')
       | {{ text }}
       p.subText(v-if='subText !== ""') {{ subText }}
