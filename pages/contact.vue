@@ -19,6 +19,11 @@ export default {
   components: {
     HeroView,
     Heading
+  },
+  head() {
+    return {
+      title: 'お問い合わせ | 株式会社ハイウィザード'
+    }
   }
 }
 </script>

@@ -27,6 +27,11 @@ export default {
     Heading,
     ServiceItem
   },
+  head() {
+    return {
+      title: '実績紹介 | 株式会社ハイウィザード'
+    }
+  },
   data: () => ({
     // タイトル, 説明, 取引先 の順で配列を記載
     webServiceList: [

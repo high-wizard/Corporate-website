@@ -79,6 +79,11 @@ export default {
   components: {
     HeroView,
     Heading
+  },
+  head() {
+    return {
+      title: '採用情報 | 株式会社ハイウィザード'
+    }
   }
 }
 </script>
