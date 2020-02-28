@@ -1,14 +1,12 @@
 {
-  "name": "HighWizardCorporateSite",
+  "name": "high-wizard-corporate-site",
   "version": "1.0.0",
   "description": "",
   "author": "sKawashima",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "build": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-0",
