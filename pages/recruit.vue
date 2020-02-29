@@ -67,9 +67,10 @@
             | 担当：経営管理部
           Heading(type='tertiary' text='MAIL').heading
           p.text recruit@high-wizard.com<br>
-            | 【履歴書及び職務経歴書】若しくは【ポートフォリオ等実績の分かる印刷物又はURL】をお送り下さい。
-          Heading(type='tertiary' text='TEL').heading
-          p.text 011-600-2455
+            | 履歴書及び【職務経歴書 又は ポートフォリオ等実績の分かるPDF形式等の書類若しくはURL】をお送り下さい。
+          Heading(type='tertiary' text='直接書類送付').heading
+          p.text 本社住所：北海道札幌市手稲区前田8条17丁目3-30
+            | 履歴書及び【職務経歴書 又は ポートフォリオ等実績の分かる印刷物】をお送り下さい。
         .item
           Heading(type='tertiary' text='業務委託契約でのお仕事をお探しの方へ')
           p.text 弊社ではフリーランスエンジニアの方も募集しております。<br>
