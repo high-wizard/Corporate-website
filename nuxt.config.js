@@ -32,8 +32,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'URL'
-        // TODO: URLを実際のものに変更する
+        content: 'https://high-wizard.com/'
       },
       {
         hid: 'og:type',
