@@ -86,7 +86,7 @@
       var content = r(187)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
-      ;(0, r(15).default)('31cf384e', content, !0, { sourceMap: !1 })
+      ;(0, r(15).default)('ff95194c', content, !0, { sourceMap: !1 })
     },
     186: function(t, e, r) {
       'use strict'
@@ -96,7 +96,7 @@
     187: function(t, e, r) {
       ;(e = r(14)(!1)).push([
         t.i,
-        '.wrapper[data-v-2eccd7ee]{padding:0 20px;color:#040e17;line-height:1.5}.greeting[data-v-2eccd7ee]{text-align:center;font-size:14px}.greeting p[data-v-2eccd7ee]:not(:first-of-type){margin-top:10px}.recruitInfomation[data-v-2eccd7ee]{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:120px auto 0}.item[data-v-2eccd7ee]{margin-top:60px}.item .text[data-v-2eccd7ee]{margin-top:20px;font-size:14px}.contactUs[data-v-2eccd7ee]{margin-top:60px}.contactUs .heading[data-v-2eccd7ee]{margin-top:20px}.contactUs .text[data-v-2eccd7ee]{font-size:14px}',
+        '.wrapper[data-v-482a6849]{padding:0 20px;color:#040e17;line-height:1.5}.greeting[data-v-482a6849]{text-align:center;font-size:14px}.greeting p[data-v-482a6849]:not(:first-of-type){margin-top:10px}.recruitInfomation[data-v-482a6849]{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:120px auto 0}.item[data-v-482a6849]{margin-top:60px}.item .text[data-v-482a6849]{margin-top:20px;font-size:14px}.item .text.list[data-v-482a6849]{list-style-type:decimal;padding-left:1.1em}.contactUs[data-v-482a6849]{margin-top:60px}.contactUs .heading[data-v-482a6849]{margin-top:20px}.contactUs .text[data-v-482a6849]{font-size:14px}',
         ''
       ]),
         (t.exports = e)
@@ -121,8 +121,8 @@
             }
           }
         },
-        d = (r(186), r(6)),
-        component = Object(d.a)(
+        l = (r(186), r(6)),
+        component = Object(l.a)(
           o,
           function() {
             var t = this,
@@ -220,11 +220,7 @@
                         r('Heading', {
                           attrs: { type: 'tertiary', text: '勤務時間' }
                         }),
-                        r('p', { staticClass: 'text' }, [
-                          t._v(
-                            '9時〜18時（プロジェクトにより異なる場合がございます）月平均時間外労働時間：5.6時間'
-                          )
-                        ])
+                        t._m(5)
                       ],
                       1
                     ),
@@ -235,11 +231,18 @@
                         r('Heading', {
                           attrs: { type: 'tertiary', text: '休日等' }
                         }),
-                        r('p', { staticClass: 'text' }, [
-                          t._v(
-                            '通勤手当（上限規程なし）職能手当（スキルに応じて支給）'
-                          )
-                        ])
+                        t._m(6)
+                      ],
+                      1
+                    ),
+                    r(
+                      'div',
+                      { staticClass: 'item' },
+                      [
+                        r('Heading', {
+                          attrs: { type: 'tertiary', text: '手当' }
+                        }),
+                        t._m(7)
                       ],
                       1
                     ),
@@ -250,7 +253,7 @@
                         r('Heading', {
                           attrs: { type: 'tertiary', text: '福利厚生' }
                         }),
-                        t._m(5)
+                        t._m(8)
                       ],
                       1
                     ),
@@ -261,7 +264,7 @@
                         r('Heading', {
                           attrs: { type: 'tertiary', text: '採用フロー' }
                         }),
-                        t._m(6)
+                        t._m(9)
                       ],
                       1
                     ),
@@ -272,21 +275,17 @@
                         r('Heading', {
                           attrs: { type: 'secondary', text: 'エントリー方法' }
                         }),
-                        t._m(7),
+                        t._m(10),
                         r('Heading', {
                           staticClass: 'heading',
                           attrs: { type: 'tertiary', text: 'TEL' }
                         }),
-                        t._m(8),
+                        t._m(11),
                         r('Heading', {
                           staticClass: 'heading',
                           attrs: { type: 'tertiary', text: 'MAIL' }
                         }),
-                        r('p', { staticClass: 'text' }, [
-                          t._v(
-                            'recruit at high-wizard.com【履歴書及び職務経歴書】若しくは【ポートフォリオ等実績の分かる印刷物又はURL】をお送り下さい。'
-                          )
-                        ]),
+                        t._m(12),
                         r('Heading', {
                           staticClass: 'heading',
                           attrs: { type: 'tertiary', text: 'TEL' }
@@ -305,7 +304,7 @@
                             text: '業務委託契約でのお仕事をお探しの方へ'
                           }
                         }),
-                        t._m(9)
+                        t._m(13)
                       ],
                       1
                     )
@@ -387,6 +386,35 @@
               var t = this.$createElement,
                 e = this._self._c || t
               return e('p', { staticClass: 'text' }, [
+                this._v(
+                  '9時〜18時（プロジェクトにより異なる場合がございます）'
+                ),
+                e('br'),
+                this._v('月平均時間外労働時間：5.6時間')
+              ])
+            },
+            function() {
+              var t = this.$createElement,
+                e = this._self._c || t
+              return e('p', { staticClass: 'text' }, [
+                this._v('完全週休2日制（土日+祝日）'),
+                e('br'),
+                this._v('夏季休暇・年末年始休暇')
+              ])
+            },
+            function() {
+              var t = this.$createElement,
+                e = this._self._c || t
+              return e('p', { staticClass: 'text' }, [
+                this._v('通勤手当（上限規程なし）'),
+                e('br'),
+                this._v('職能手当（スキルに応じて支給）')
+              ])
+            },
+            function() {
+              var t = this.$createElement,
+                e = this._self._c || t
+              return e('p', { staticClass: 'text' }, [
                 this._v('各種社会保険、定期健康診断'),
                 e('br'),
                 this._v('出張手当'),
@@ -405,16 +433,12 @@
             function() {
               var t = this.$createElement,
                 e = this._self._c || t
-              return e('p', { staticClass: 'text' }, [
-                this._v('エントリー'),
-                e('br'),
-                this._v('書類選考'),
-                e('br'),
-                this._v('\nカジュアル面談（社長又は採用担当者）'),
-                e('br'),
-                this._v('\n面接（社長）'),
-                e('br'),
-                this._v('\n採用')
+              return e('ol', { staticClass: 'text list' }, [
+                e('li', [this._v('エントリー')]),
+                e('li', [this._v('書類選考')]),
+                e('li', [this._v('カジュアル面談（社長又は採用担当者）')]),
+                e('li', [this._v('面接（社長）')]),
+                e('li', [this._v('採用')])
               ])
             },
             function() {
@@ -441,6 +465,17 @@
               var t = this.$createElement,
                 e = this._self._c || t
               return e('p', { staticClass: 'text' }, [
+                this._v('recruit@high-wizard.com'),
+                e('br'),
+                this._v(
+                  '【履歴書及び職務経歴書】若しくは【ポートフォリオ等実績の分かる印刷物又はURL】をお送り下さい。'
+                )
+              ])
+            },
+            function() {
+              var t = this.$createElement,
+                e = this._self._c || t
+              return e('p', { staticClass: 'text' }, [
                 this._v(
                   '弊社ではフリーランスエンジニアの方も募集しております。'
                 ),
@@ -453,7 +488,7 @@
           ],
           !1,
           null,
-          '2eccd7ee',
+          '482a6849',
           null
         )
       e.default = component.exports
