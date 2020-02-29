@@ -86,7 +86,7 @@
       var content = r(187)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
-      ;(0, r(15).default)('ff95194c', content, !0, { sourceMap: !1 })
+      ;(0, r(15).default)('253f125c', content, !0, { sourceMap: !1 })
     },
     186: function(t, e, r) {
       'use strict'
@@ -96,7 +96,7 @@
     187: function(t, e, r) {
       ;(e = r(14)(!1)).push([
         t.i,
-        '.wrapper[data-v-482a6849]{padding:0 20px;color:#040e17;line-height:1.5}.greeting[data-v-482a6849]{text-align:center;font-size:14px}.greeting p[data-v-482a6849]:not(:first-of-type){margin-top:10px}.recruitInfomation[data-v-482a6849]{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:120px auto 0}.item[data-v-482a6849]{margin-top:60px}.item .text[data-v-482a6849]{margin-top:20px;font-size:14px}.item .text.list[data-v-482a6849]{list-style-type:decimal;padding-left:1.1em}.contactUs[data-v-482a6849]{margin-top:60px}.contactUs .heading[data-v-482a6849]{margin-top:20px}.contactUs .text[data-v-482a6849]{font-size:14px}',
+        '.wrapper[data-v-b10c6f1a]{padding:0 20px;color:#040e17;line-height:1.5}.greeting[data-v-b10c6f1a]{text-align:center;font-size:14px}.greeting p[data-v-b10c6f1a]:not(:first-of-type){margin-top:10px}.recruitInfomation[data-v-b10c6f1a]{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:120px auto 0}.item[data-v-b10c6f1a]{margin-top:60px}.item .text[data-v-b10c6f1a]{margin-top:20px;font-size:14px}.item .text.list[data-v-b10c6f1a]{list-style-type:decimal;padding-left:1.1em}.contactUs[data-v-b10c6f1a]{margin-top:60px}.contactUs .heading[data-v-b10c6f1a]{margin-top:20px}.contactUs .text[data-v-b10c6f1a]{font-size:14px}',
         ''
       ]),
         (t.exports = e)
@@ -288,9 +288,13 @@
                         t._m(12),
                         r('Heading', {
                           staticClass: 'heading',
-                          attrs: { type: 'tertiary', text: 'TEL' }
+                          attrs: { type: 'tertiary', text: '直接書類送付' }
                         }),
-                        r('p', { staticClass: 'text' }, [t._v('011-600-2455')])
+                        r('p', { staticClass: 'text' }, [
+                          t._v(
+                            '本社住所：北海道札幌市手稲区前田8条17丁目3-30履歴書及び【職務経歴書 又は ポートフォリオ等実績の分かる印刷物】をお送り下さい。'
+                          )
+                        ])
                       ],
                       1
                     ),
@@ -468,7 +472,7 @@
                 this._v('recruit@high-wizard.com'),
                 e('br'),
                 this._v(
-                  '【履歴書及び職務経歴書】若しくは【ポートフォリオ等実績の分かる印刷物又はURL】をお送り下さい。'
+                  '履歴書及び【職務経歴書 又は ポートフォリオ等実績の分かるPDF形式等の書類若しくはURL】をお送り下さい。'
                 )
               ])
             },
@@ -488,7 +492,7 @@
           ],
           !1,
           null,
-          '482a6849',
+          'b10c6f1a',
           null
         )
       e.default = component.exports
