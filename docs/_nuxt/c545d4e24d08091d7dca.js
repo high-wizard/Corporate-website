@@ -2152,7 +2152,7 @@
                 content:
                   '株式会社ハイウィザードは札幌市でWeb制作を行うクリエイティブ集団です。ホームページ制作を軸に、システム開発、各種コンテンツ制作などを行っています。'
               },
-              { hid: 'og:image', property: 'og:image', content: './OGP.png' },
+              { hid: 'og:image', property: 'og:image', content: 'OGP.png' },
               {
                 hid: 'og:description',
                 property: 'og:description',
