@@ -32,11 +32,15 @@
             | 業務の都合により、札幌市内のお客様先にて作業する場合がございます。
         .item
           Heading(type='tertiary' text='勤務時間')
-          p.text 9時〜18時（プロジェクトにより異なる場合がございます）
+          p.text 9時〜18時（プロジェクトにより異なる場合がございます）<br>
             | 月平均時間外労働時間：5.6時間
         .item
           Heading(type='tertiary' text='休日等')
-          p.text 通勤手当（上限規程なし）
+          p.text 完全週休2日制（土日+祝日）<br>
+            | 夏季休暇・年末年始休暇
+        .item
+          Heading(type='tertiary' text='手当')
+          p.text 通勤手当（上限規程なし）<br>
             | 職能手当（スキルに応じて支給）
         .item
           Heading(type='tertiary' text='福利厚生')
@@ -48,11 +52,12 @@
             | 他に欲しい物があればぜひご相談下さい
         .item
           Heading(type='tertiary' text='採用フロー')
-          p.text エントリー<br>
-            | 書類選考<br>
-            | カジュアル面談（社長又は採用担当者）<br>
-            | 面接（社長）<br>
-            | 採用
+          ol.text.list
+            li エントリー
+            li 書類選考
+            li カジュアル面談（社長又は採用担当者）
+            li 面接（社長）
+            li 採用
         .contactUs
           Heading(type='secondary' text='エントリー方法')
           p.text 以下の3つのうちどれか1つにてご連絡下さい。<br>
@@ -61,7 +66,7 @@
           p.text 011-600-2455<br>
             | 担当：経営管理部
           Heading(type='tertiary' text='MAIL').heading
-          p.text recruit at high-wizard.com
+          p.text recruit@high-wizard.com<br>
             | 【履歴書及び職務経歴書】若しくは【ポートフォリオ等実績の分かる印刷物又はURL】をお送り下さい。
           Heading(type='tertiary' text='TEL').heading
           p.text 011-600-2455
@@ -117,6 +122,9 @@ export default {
   .text
     margin-top: 20px
     font-size: 14px
+    &.list
+      list-style-type: decimal
+      padding-left: 1.1em
 
 .contactUs
   margin-top: 60px
