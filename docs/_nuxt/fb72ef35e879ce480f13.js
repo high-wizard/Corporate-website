@@ -86,7 +86,7 @@
       var content = r(187)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
-      ;(0, r(15).default)('253f125c', content, !0, { sourceMap: !1 })
+      ;(0, r(15).default)('11bf311c', content, !0, { sourceMap: !1 })
     },
     186: function(t, e, r) {
       'use strict'
@@ -96,7 +96,7 @@
     187: function(t, e, r) {
       ;(e = r(14)(!1)).push([
         t.i,
-        '.wrapper[data-v-b10c6f1a]{padding:0 20px;color:#040e17;line-height:1.5}.greeting[data-v-b10c6f1a]{text-align:center;font-size:14px}.greeting p[data-v-b10c6f1a]:not(:first-of-type){margin-top:10px}.recruitInfomation[data-v-b10c6f1a]{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:120px auto 0}.item[data-v-b10c6f1a]{margin-top:60px}.item .text[data-v-b10c6f1a]{margin-top:20px;font-size:14px}.item .text.list[data-v-b10c6f1a]{list-style-type:decimal;padding-left:1.1em}.contactUs[data-v-b10c6f1a]{margin-top:60px}.contactUs .heading[data-v-b10c6f1a]{margin-top:20px}.contactUs .text[data-v-b10c6f1a]{font-size:14px}',
+        '.wrapper[data-v-1e89f025]{padding:0 20px;color:#040e17;line-height:1.5}.greeting[data-v-1e89f025]{text-align:center;font-size:14px}.greeting p[data-v-1e89f025]:not(:first-of-type){margin-top:10px}.recruitInfomation[data-v-1e89f025]{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:120px auto 0}.item[data-v-1e89f025]{margin-top:60px}.item .text[data-v-1e89f025]{margin-top:20px;font-size:14px}.item .text.list[data-v-1e89f025]{list-style-type:decimal;padding-left:1.1em}.contactUs[data-v-1e89f025]{margin-top:60px}.contactUs .heading[data-v-1e89f025]{margin-top:20px}.contactUs .text[data-v-1e89f025]{font-size:14px}',
         ''
       ]),
         (t.exports = e)
@@ -290,11 +290,7 @@
                           staticClass: 'heading',
                           attrs: { type: 'tertiary', text: '直接書類送付' }
                         }),
-                        r('p', { staticClass: 'text' }, [
-                          t._v(
-                            '本社住所：北海道札幌市手稲区前田8条17丁目3-30履歴書及び【職務経歴書 又は ポートフォリオ等実績の分かる印刷物】をお送り下さい。'
-                          )
-                        ])
+                        t._m(13)
                       ],
                       1
                     ),
@@ -308,7 +304,7 @@
                             text: '業務委託契約でのお仕事をお探しの方へ'
                           }
                         }),
-                        t._m(13)
+                        t._m(14)
                       ],
                       1
                     )
@@ -480,6 +476,17 @@
               var t = this.$createElement,
                 e = this._self._c || t
               return e('p', { staticClass: 'text' }, [
+                this._v('本社住所：北海道札幌市手稲区前田8条17丁目3-30'),
+                e('br'),
+                this._v(
+                  '履歴書及び【職務経歴書 又は ポートフォリオ等実績の分かる印刷物】をお送り下さい。'
+                )
+              ])
+            },
+            function() {
+              var t = this.$createElement,
+                e = this._self._c || t
+              return e('p', { staticClass: 'text' }, [
                 this._v(
                   '弊社ではフリーランスエンジニアの方も募集しております。'
                 ),
@@ -492,7 +499,7 @@
           ],
           !1,
           null,
-          'b10c6f1a',
+          '1e89f025',
           null
         )
       e.default = component.exports
