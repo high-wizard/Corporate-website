@@ -2152,11 +2152,7 @@
                 content:
                   '株式会社ハイウィザードは札幌市でWeb制作を行うクリエイティブ集団です。ホームページ制作を軸に、システム開発、各種コンテンツ制作などを行っています。'
               },
-              {
-                hid: 'og:image',
-                property: 'og:image',
-                content: '@/static/OGP.png'
-              },
+              { hid: 'og:image', property: 'og:image', content: './OGP.png' },
               {
                 hid: 'og:description',
                 property: 'og:description',
@@ -2182,7 +2178,7 @@
               {
                 hid: 'apple-mobile-web-app-title',
                 name: 'apple-mobile-web-app-title',
-                content: 'high-wizard-corporate-site'
+                content: 'high-wizard'
               },
               { hid: 'author', name: 'author', content: 'sKawashima' },
               { hid: 'theme-color', name: 'theme-color', content: '#144877' },
@@ -2190,12 +2186,12 @@
                 hid: 'og:site_name',
                 name: 'og:site_name',
                 property: 'og:site_name',
-                content: 'high-wizard-corporate-site'
+                content: 'high-wizard'
               }
             ],
             link: [
               { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-              { rel: 'manifest', href: '/_nuxt/manifest.a131e0f1.json' }
+              { rel: 'manifest', href: '/_nuxt/manifest.e10b5dff.json' }
             ],
             style: [],
             script: []

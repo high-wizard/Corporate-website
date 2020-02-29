@@ -1,6 +1,6 @@
 {
-  "name": "high-wizard-corporate-site",
-  "short_name": "high-wizard-corporate-site",
+  "name": "high-wizard",
+  "short_name": "high-wizard",
   "description": "## Build Setup",
   "icons": [],
   "start_url": "/?standalone=true",
