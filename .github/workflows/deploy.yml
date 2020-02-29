@@ -23,6 +23,7 @@ jobs:
       - run: yarn build
         env:
           CI: true
+      - run: echo 'high-wizard.com' > docs/CNAME
       - name: Commit to repository
         env:
           GITHUB_TOKEN: ${{ secrets.github_token }}
