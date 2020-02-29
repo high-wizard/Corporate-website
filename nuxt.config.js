@@ -20,7 +20,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: './OGP.png'
+        content: 'OGP.png'
       },
       {
         hid: 'og:description',
