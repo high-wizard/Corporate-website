@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    HeroView(topText='株式会社ハイウィザードは札幌市でWeb制作を行うクリエイティブ集団です。<br>ホームページ制作を軸に、システム開発、各種コンテンツ制作などを行っています。' imgSrc='/image/contact.jpg')
+    HeroView(topText='株式会社ハイウィザードは札幌市でWeb制作を行うクリエイティブ集団です。<br>ホームページ制作を軸に、システム開発、各種コンテンツ制作などを行っています。' imgSrc='/image/top.jpg')
     section.news
       Heading(type='secondary' text='NEWS')
       .container
