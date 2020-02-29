@@ -86,7 +86,7 @@
       var content = r(187)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
-      ;(0, r(15).default)('3283d29e', content, !0, { sourceMap: !1 })
+      ;(0, r(15).default)('31cf384e', content, !0, { sourceMap: !1 })
     },
     186: function(t, e, r) {
       'use strict'
@@ -96,7 +96,7 @@
     187: function(t, e, r) {
       ;(e = r(14)(!1)).push([
         t.i,
-        '.wrapper[data-v-08af8372]{padding:0 20px;color:#040e17;line-height:1.5}.greeting[data-v-08af8372]{text-align:center;font-size:14px}.greeting p[data-v-08af8372]:not(:first-of-type){margin-top:10px}.recruitInfomation[data-v-08af8372]{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:120px auto 0}.item[data-v-08af8372]{margin-top:60px}.item .text[data-v-08af8372]{margin-top:20px;font-size:14px}.contactUs[data-v-08af8372]{margin-top:60px}.contactUs .heading[data-v-08af8372]{margin-top:20px}.contactUs .text[data-v-08af8372]{font-size:14px}',
+        '.wrapper[data-v-2eccd7ee]{padding:0 20px;color:#040e17;line-height:1.5}.greeting[data-v-2eccd7ee]{text-align:center;font-size:14px}.greeting p[data-v-2eccd7ee]:not(:first-of-type){margin-top:10px}.recruitInfomation[data-v-2eccd7ee]{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:120px auto 0}.item[data-v-2eccd7ee]{margin-top:60px}.item .text[data-v-2eccd7ee]{margin-top:20px;font-size:14px}.contactUs[data-v-2eccd7ee]{margin-top:60px}.contactUs .heading[data-v-2eccd7ee]{margin-top:20px}.contactUs .text[data-v-2eccd7ee]{font-size:14px}',
         ''
       ]),
         (t.exports = e)
@@ -121,8 +121,8 @@
             }
           }
         },
-        l = (r(186), r(6)),
-        component = Object(l.a)(
+        d = (r(186), r(6)),
+        component = Object(d.a)(
           o,
           function() {
             var t = this,
@@ -434,7 +434,7 @@
               return e('p', { staticClass: 'text' }, [
                 this._v('011-600-2455'),
                 e('br'),
-                this._v('担当：経営管理部 室田')
+                this._v('担当：経営管理部')
               ])
             },
             function() {
@@ -453,7 +453,7 @@
           ],
           !1,
           null,
-          '08af8372',
+          '2eccd7ee',
           null
         )
       e.default = component.exports
