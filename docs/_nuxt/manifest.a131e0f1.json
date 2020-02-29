@@ -1,0 +1,11 @@
+{
+  "name": "high-wizard-corporate-site",
+  "short_name": "high-wizard-corporate-site",
+  "description": "## Build Setup",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#144877",
+  "lang": "en"
+}
