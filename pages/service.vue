@@ -28,8 +28,16 @@ export default {
     ServiceItem
   },
   head() {
+    const pageTitle = '実績紹介 | 株式会社ハイウィザード'
     return {
-      title: '実績紹介 | 株式会社ハイウィザード'
+      title: pageTitle,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: pageTitle
+        }
+      ]
     }
   },
   data: () => ({

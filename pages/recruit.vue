@@ -81,8 +81,16 @@ export default {
     Heading
   },
   head() {
+    const pageTitle = '採用情報 | 株式会社ハイウィザード'
     return {
-      title: '採用情報 | 株式会社ハイウィザード'
+      title: pageTitle,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: pageTitle
+        }
+      ]
     }
   }
 }

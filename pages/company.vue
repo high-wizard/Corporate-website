@@ -29,8 +29,16 @@ export default {
     CompanyOverview
   },
   head() {
+    const pageTitle = '会社案内 | 株式会社ハイウィザード'
     return {
-      title: '会社案内 | 株式会社ハイウィザード'
+      title: pageTitle,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: pageTitle
+        }
+      ]
     }
   }
 }

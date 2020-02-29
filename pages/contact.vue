@@ -21,8 +21,16 @@ export default {
     Heading
   },
   head() {
+    const pageTitle = 'お問い合わせ | 株式会社ハイウィザード'
     return {
-      title: 'お問い合わせ | 株式会社ハイウィザード'
+      title: pageTitle,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: pageTitle
+        }
+      ]
     }
   }
 }

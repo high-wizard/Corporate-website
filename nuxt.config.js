@@ -17,7 +17,34 @@ export default {
         content:
           '株式会社ハイウィザードは札幌市でWeb制作を行うクリエイティブ集団です。ホームページ制作を軸に、システム開発、各種コンテンツ制作などを行っています。'
       },
-      { name: 'robots', content: 'noindex' }
+      { name: 'robots', content: 'noindex' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '@/static/OGP.png'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '株式会社ハイウィザードは札幌市でWeb制作を行うクリエイティブ集団です。ホームページ制作を軸に、システム開発、各種コンテンツ制作などを行っています。'
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'URL'
+        // TODO: URLを実際のものに変更する
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: '株式会社ハイウィザード'
+      }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
