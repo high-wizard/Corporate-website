@@ -1,7 +1,7 @@
 <template lang="pug">
   header.header
     nav.headerContents
-      Logo
+      Logo(@click.native='initHamburgerMenuDisplay')
       img.humburger(src='@/assets/icon/Hamburger.svg' @click='toggleHamburgerMenuDisplay')
       ul.headerMenu(v-if='hamburgerMenuDisplay')
         li.headerMenuItem
