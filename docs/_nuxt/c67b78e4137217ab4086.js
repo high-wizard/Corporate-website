@@ -92,7 +92,7 @@
       var content = n(191)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
-      ;(0, n(15).default)('43d0c2d9', content, !0, { sourceMap: !1 })
+      ;(0, n(15).default)('7f64729f', content, !0, { sourceMap: !1 })
     },
     188: function(t, e, n) {
       'use strict'
@@ -115,7 +115,7 @@
     191: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
-        '.wrapper[data-v-0071a3fc]{padding:0 20px;color:#040e17;max-width:1040px;width:calc(100% - 40px);margin:0 auto}.services[data-v-0071a3fc]{margin:0 -20px}.services[data-v-0071a3fc]:not(:first-of-type){margin-top:180px}.serviceItemContainer[data-v-0071a3fc]{display:flex;flex-wrap:wrap;justify-content:flex-start;margin:0 auto;width:100%;max-width:1080px}@media screen and (max-width:1079px){.serviceItemContainer[data-v-0071a3fc]{max-width:720px}}@media screen and (max-width:719px){.serviceItemContainer[data-v-0071a3fc]{max-width:100%}}',
+        '.wrapper[data-v-93cafe7c]{padding:0 20px;color:#040e17;max-width:1040px;width:calc(100% - 40px);margin:0 auto}.services[data-v-93cafe7c]{margin:0 -20px}.services[data-v-93cafe7c]:not(:first-of-type){margin-top:180px}.serviceItemContainer[data-v-93cafe7c]{display:flex;flex-wrap:wrap;justify-content:flex-start;margin:0 auto;width:100%;max-width:1080px}@media screen and (max-width:1079px){.serviceItemContainer[data-v-93cafe7c]{max-width:720px}}@media screen and (max-width:719px){.serviceItemContainer[data-v-93cafe7c]{max-width:100%}}',
         ''
       ]),
         (t.exports = e)
@@ -222,16 +222,6 @@
                   '大容量ログ解析案件',
                   '数百万行単位のログデータからIoTデバイスの位置情報等の解析・可視化するシステムの処理実装です。',
                   '運送業'
-                ],
-                [
-                  '社内管理職向け 人事 Web アプリ',
-                  '人事配置の効率化を目的とした管理職向けの業務効率化アプリです。',
-                  '情報サービス業'
-                ],
-                [
-                  '消費者向けスマホアプリ',
-                  'ベースのアプリを制作し、それをもとに、小売企業ごとに4系統のパターンを開発です。',
-                  '博報堂グループ会社'
                 ]
               ],
               otherList: [
@@ -353,7 +343,7 @@
             [],
             !1,
             null,
-            '0071a3fc',
+            '93cafe7c',
             null
           ))
       e.default = f.exports
