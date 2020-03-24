@@ -52,6 +52,12 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - CONTACT: `pages/contact.vue`
 - RECRUIT: `pages/recruit.vue`
 
+## CI/CD
+
+- push時に最低限CIが回る様に設定されています。
+- masterにpushされた際（PRにてmergeした時）に、GitHub Pagesに自動デプロイする様に設定されています。
+- 詳細なコードは`.github/workflows`に定義されています。
+
 ## GitHub Settings
 
 - Branch protection rules
