@@ -54,9 +54,10 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## CI/CD
 
+- GitHub Actionsを用いてCI/CDを行えるようになっています。
 - push時に最低限CIが回る様に設定されています。
 - masterにpushされた際（PRにてmergeした時）に、GitHub Pagesに自動デプロイする様に設定されています。
-- 詳細なコードは`.github/workflows`に定義されています。
+- 詳細は`.github/workflows`をご確認下さい。
 
 ## GitHub Settings
 
