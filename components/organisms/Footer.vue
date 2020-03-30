@@ -23,6 +23,8 @@
               n-link(to='/contact') CONTACT
             li.footerNavItem
               n-link(to='/recruit') RECRUIT
+            li.footerNavItem
+              n-link(to='/article') ARTICLE
     section.copyright
       p © High Wizard Inc.
 

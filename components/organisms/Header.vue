@@ -12,6 +12,8 @@
           n-link(to='/contact' @click.native='initHamburgerMenuDisplay') CONTACT
         li.headerMenuItem
           n-link(to='/recruit' @click.native='initHamburgerMenuDisplay') RECRUIT
+        li.headerMenuItem
+          n-link(to='/article' @click.native='initHamburgerMenuDisplay') ARTICLE
 </template>
 
 <script>
