@@ -1,5 +1,5 @@
 ;(window.webpackJsonp = window.webpackJsonp || []).push([
-  [4],
+  [7],
   {
     167: function(t, e, n) {
       var content = n(169)
@@ -83,17 +83,17 @@
       e.a = component.exports
     },
     171: function(t, e, n) {
-      var content = n(173)
+      var content = n(175)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
       ;(0, n(15).default)('72f91ded', content, !0, { sourceMap: !1 })
     },
-    172: function(t, e, n) {
+    174: function(t, e, n) {
       'use strict'
       var o = n(171)
       n.n(o).a
     },
-    173: function(t, e, n) {
+    175: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
         '.companyOverviewTable[data-v-65acd344]{font-size:14px;color:#040e17}@media screen and (max-width:539px){.companyOverviewTable .tr[data-v-65acd344]{display:flex;flex-direction:column}.companyOverviewTable .tr .td[data-v-65acd344]{margin-top:10px}}.companyOverviewTable .tr:not(:first-of-type) .th[data-v-65acd344]{padding-top:20px}.companyOverviewTable .th[data-v-65acd344]{text-align:left;font-weight:700;padding-right:20px}.companyOverviewTable td[data-v-65acd344]{line-height:1.5}.companyOverviewTable .building[data-v-65acd344]{display:inline-block}',
@@ -101,21 +101,21 @@
       ]),
         (t.exports = e)
     },
-    179: function(t, e, n) {
-      var content = n(193)
+    184: function(t, e, n) {
+      var content = n(208)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
       ;(0, n(15).default)('e0ad8294', content, !0, { sourceMap: !1 })
     },
-    180: function(t, e, n) {
-      var content = n(195)
+    185: function(t, e, n) {
+      var content = n(210)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
       ;(0, n(15).default)('3dd3bbfe', content, !0, { sourceMap: !1 })
     },
-    181: function(t, e, n) {
+    186: function(t, e, n) {
       'use strict'
-      n(172)
+      n(174)
       var o = n(6),
         component = Object(o.a)(
           {},
@@ -179,12 +179,12 @@
         )
       e.a = component.exports
     },
-    192: function(t, e, n) {
+    207: function(t, e, n) {
       'use strict'
-      var o = n(179)
+      var o = n(184)
       n.n(o).a
     },
-    193: function(t, e, n) {
+    208: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
         '.newsItem[data-v-3ba6f496]{margin:40px 0 0}.newsItem[data-v-3ba6f496]:only-child{margin:40px auto 0}.newsItem .heading[data-v-3ba6f496]{padding-bottom:10px;border-bottom:2px solid #d6d8dc}.introduction[data-v-3ba6f496]{color:#040e17;font-size:14px;line-height:1.7;padding-top:16px}.link[data-v-3ba6f496]{display:inline-block;color:#144877;text-decoration:none}.date[data-v-3ba6f496],.link[data-v-3ba6f496]{font-size:14px;margin-top:10px}.date[data-v-3ba6f496]{text-align:right;color:#686e73}',
@@ -192,12 +192,12 @@
       ]),
         (t.exports = e)
     },
-    194: function(t, e, n) {
+    209: function(t, e, n) {
       'use strict'
-      var o = n(180)
+      var o = n(185)
       n.n(o).a
     },
-    195: function(t, e, n) {
+    210: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
         '.news[data-v-4b471a41]{margin:0 auto;max-width:1040px;padding:0 20px}@media screen and (min-width:720px){.news .container[data-v-4b471a41]{display:grid;grid-gap:40px;grid-template-columns:1fr 1fr}}.aboutUs[data-v-4b471a41]{margin:120px auto 0;max-width:1040px;padding:0 20px;display:flex}@media screen and (max-width:719px){.aboutUs[data-v-4b471a41]{display:block}}.aboutUs .img[data-v-4b471a41]{background:url(/image/topDecoration.jpg);flex-shrink:0;margin-right:60px;background-size:cover;background-position:50%;display:none}@media screen and (min-width:720px){.aboutUs .img[data-v-4b471a41]{width:30%;max-width:330px}.aboutUs .img.--pc[data-v-4b471a41]{display:block}}@media screen and (max-width:719px){.aboutUs .img[data-v-4b471a41]{width:100%;height:150px;max-width:unset;margin-top:40px}.aboutUs .img.--sp[data-v-4b471a41]{display:block}}.aboutUs .text[data-v-4b471a41]{margin-top:40px;font-size:14px;line-height:1.7;color:#040e17}.aboutUs .link[data-v-4b471a41]{margin-top:20px;display:block;color:#144877;text-decoration:none;font-size:14px}.aboutUs .developMember[data-v-4b471a41]{margin-top:120px}.companyOverview[data-v-4b471a41]{margin-top:120px;padding:0 20px}.companyOverview .companyOverviewTable[data-v-4b471a41]{margin:60px auto 0}',
@@ -205,10 +205,10 @@
       ]),
         (t.exports = e)
     },
-    198: function(t, e, n) {
+    215: function(t, e, n) {
       'use strict'
       n.r(e)
-      var o = n(181),
+      var o = n(186),
         r = n(73),
         d = n(170),
         c = {
@@ -221,7 +221,7 @@
             linkTo: String
           }
         },
-        l = (n(192), n(6)),
+        l = (n(207), n(6)),
         v = Object(l.a)(
           c,
           function() {
@@ -268,7 +268,7 @@
           }
         },
         m =
-          (n(194),
+          (n(209),
           Object(l.a)(
             x,
             function() {

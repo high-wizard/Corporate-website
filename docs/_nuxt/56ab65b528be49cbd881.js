@@ -1,5 +1,5 @@
 ;(window.webpackJsonp = window.webpackJsonp || []).push([
-  [6],
+  [9],
   {
     167: function(t, e, n) {
       var content = n(169)
@@ -82,24 +82,24 @@
         )
       e.a = component.exports
     },
-    177: function(t, e, n) {
-      var content = n(189)
+    180: function(t, e, n) {
+      var content = n(200)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
       ;(0, n(15).default)('12954bd0', content, !0, { sourceMap: !1 })
     },
-    178: function(t, e, n) {
-      var content = n(191)
+    181: function(t, e, n) {
+      var content = n(202)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
       ;(0, n(15).default)('43d0c2d9', content, !0, { sourceMap: !1 })
     },
-    188: function(t, e, n) {
+    199: function(t, e, n) {
       'use strict'
-      var r = n(177)
+      var r = n(180)
       n.n(r).a
     },
-    189: function(t, e, n) {
+    200: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
         '.serviceItem[data-v-751d46cc]{width:100%;max-width:320px;margin:60px 20px 0}.serviceItem[data-v-751d46cc]:only-child{margin:60px auto 0}@media screen and (max-width:719px){.serviceItem[data-v-751d46cc]{max-width:unset}.serviceItem[data-v-751d46cc]:only-child{margin:60px 20px 0}}.introduction[data-v-751d46cc]{color:#040e17;font-size:14px;line-height:1.7;margin-top:10px;padding-top:16px;border-top:2px solid #d6d8dc}.client[data-v-751d46cc]{color:#686e73;font-size:12px;margin-top:6px}',
@@ -107,12 +107,12 @@
       ]),
         (t.exports = e)
     },
-    190: function(t, e, n) {
+    201: function(t, e, n) {
       'use strict'
-      var r = n(178)
+      var r = n(181)
       n.n(r).a
     },
-    191: function(t, e, n) {
+    202: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
         '.wrapper[data-v-0071a3fc]{padding:0 20px;color:#040e17;max-width:1040px;width:calc(100% - 40px);margin:0 auto}.services[data-v-0071a3fc]{margin:0 -20px}.services[data-v-0071a3fc]:not(:first-of-type){margin-top:180px}.serviceItemContainer[data-v-0071a3fc]{display:flex;flex-wrap:wrap;justify-content:flex-start;margin:0 auto;width:100%;max-width:1080px}@media screen and (max-width:1079px){.serviceItemContainer[data-v-0071a3fc]{max-width:720px}}@media screen and (max-width:719px){.serviceItemContainer[data-v-0071a3fc]{max-width:100%}}',
@@ -120,7 +120,7 @@
       ]),
         (t.exports = e)
     },
-    197: function(t, e, n) {
+    214: function(t, e, n) {
       'use strict'
       n.r(e)
       var r = n(170),
@@ -129,7 +129,7 @@
           components: { Heading: c.a },
           props: { title: String, introduction: String, client: String }
         },
-        d = (n(188), n(6)),
+        d = (n(199), n(6)),
         l = Object(d.a)(
           o,
           function() {
@@ -241,7 +241,7 @@
           }
         },
         f =
-          (n(190),
+          (n(201),
           Object(d.a)(
             x,
             function() {

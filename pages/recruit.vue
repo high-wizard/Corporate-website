@@ -60,8 +60,12 @@
             li 採用
         .contactUs
           Heading(type='secondary' text='エントリー方法')
-          p.text 以下の3つのうちどれか1つにてご連絡下さい。<br>
-            | 質問やエントリー前のカジュアル面談等も歓迎しております。お気軽にご相談下さい。
+          p.text 以下の4つのうちどれか1つにてご連絡下さい。<br>
+            | 質問やカジュアル面談等も歓迎しております。お気軽にご相談下さい。
+          Heading(type='tertiary' text='カジュアル面談申込フォーム').heading
+          p.text 下記フォームからカジュアル面談の申し込みが可能です。<br>
+          p.text 面接ではありませんので、書類等も不要です。<br>
+          InputForm
           Heading(type='tertiary' text='TEL').heading
           p.text 011-600-2455<br>
             | 担当：経営管理部
@@ -76,15 +80,16 @@
           p.text 弊社ではフリーランスエンジニアの方も募集しております。<br>
             | 上記の内容とは条件が異なりますので、詳しくは採用担当者へお問い合わせ下さい。
 </template>
-
 <script>
 import HeroView from '@/components/organisms/HeroView'
+import InputForm from '@/components/organisms/InputForm'
 import Heading from '@/components/molecules/Heading'
 
 export default {
   components: {
     HeroView,
-    Heading
+    Heading,
+    InputForm
   },
   head() {
     const pageTitle = '採用情報 | 株式会社ハイウィザード'

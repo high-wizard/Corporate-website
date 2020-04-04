@@ -4,12 +4,10 @@
     .wrapper
       ArticleItem(v-for='(s, key, index) in articleItemList' :date='s[0]' :title='s[1]' :key='index')
 </template>
-
 <script>
 import HeroView from '@/components/organisms/HeroView'
 import ArticleItem from '@/components/organisms/ArticleItem'
 import Heading from '@/components/molecules/Heading'
-
 export default {
   components: {
     HeroView,
@@ -30,12 +28,15 @@ export default {
     }
   },
   data: () => ({
-    // 投稿日,記事名 の順で記載
-    articleItemList: [['20200401', '企業ブログを開設しました！']]
+    // 投稿日,記事名 の順で記載。必ず一番上に追加すること
+    articleItemList: [
+      ['20200403', 'C#について'],
+      ['20200402', '勉強会について'],
+      ['20200401', '企業ブログを開設しました！']
+    ]
   })
 }
 </script>
-
 <style lang="sass" scoped>
 .wrapper
   padding: 0 20px

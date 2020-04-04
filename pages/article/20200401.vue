@@ -19,7 +19,7 @@ div.top
 
   h2.heading ブログについて
   p このハイウィザード公式サイトブログでは、技術的な内容と会社での出来事を書いていく予定です。
-  p 記事のタイトルだけで技術トピックかそれ以外かが分かるように何かしら工夫するつもりです。
+  p 記事のタイトルだけで技術トピックかそれ以外かがタイトルで分かるようにします。
   p C#、PHP、JavaScript等を扱う機会があるので、業務で役立った知識とか公開していければと思います！
   p 個人的にQiitaのトレンドを読むのが習慣としてあるので、オススメしたいなと思った記事も紹介します。
 
@@ -30,9 +30,6 @@ div.top
     span です。
   p 以前はCloud9というサービスを利用していましたが、AWS Cloud9になってからは使っていませんでした。
   p 記事のVS Onlineが気になりますね。そのうち試してみたいです。
-
-
-
 </template>
 
 <script>
@@ -55,29 +52,5 @@ export default {
 font-weight: 700
 
 <style lang="sass" scoped>
-p
-  font-size: 18px
-  line-height: 30px
-  @media screen and (max-width: 719px)
-    display: inline
-
-.top
-  padding-left: 10%
-  padding-right: 10%
-  color: #040E17
-
-.heading
-  font-size: 23px
-  font-weight: 700
-  padding-top: 30px
-  padding-bottom: 1%
-
-.bold
-  font-weight: 700
-
-.link
-  text-decoration: none
-  color: #144877
-.link:hover
-  text-decoration: underline
+@import './article.sass'
 </style>

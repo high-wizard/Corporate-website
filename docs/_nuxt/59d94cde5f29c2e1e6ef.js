@@ -40,13 +40,13 @@
           return R
         }),
         n.d(e, 'd', function() {
-          return S
+          return M
         }),
         n.d(e, 'b', function() {
           return N
         }),
         n.d(e, 'g', function() {
-          return M
+          return S
         }),
         n.d(e, 'l', function() {
           return P
@@ -55,7 +55,7 @@
       var r = n(37),
         o = (n(135), n(136), n(137), n(25)),
         c = (n(96), n(97), n(140), n(143), n(98), n(35), n(5)),
-        l = (n(59), n(36), n(20), n(68), n(69), n(57)),
+        l = (n(60), n(36), n(20), n(69), n(59), n(57)),
         f = n(1)
       function d(object, t) {
         var e = Object.keys(object)
@@ -339,7 +339,7 @@
           ? n
           : Promise.resolve(n)
       }
-      function S(base, t) {
+      function M(base, t) {
         var path = decodeURI(window.location.pathname)
         return 'hash' === t
           ? window.location.hash.replace(/^#\//, '')
@@ -464,7 +464,7 @@
           e
         )
       }
-      function M(t, e) {
+      function S(t, e) {
         var n = {},
           r = h({}, t, {}, e)
         for (var o in r) String(t[o]) !== String(e[o]) && (n[o] = !0)
@@ -568,7 +568,7 @@
       'use strict'
       n.r(e),
         function(t) {
-          n(59), n(82), n(42)
+          n(60), n(82), n(42)
           var e = n(25),
             r = (n(35), n(114), n(5)),
             o =
@@ -576,8 +576,8 @@
               n(87),
               n(36),
               n(20),
-              n(68),
               n(69),
+              n(59),
               n(90),
               n(118),
               n(130),
@@ -821,9 +821,9 @@
                   E,
                   T,
                   R,
-                  S,
-                  N,
                   M,
+                  N,
+                  S,
                   P,
                   D = this
                 return regeneratorRuntime.wrap(
@@ -978,14 +978,14 @@
                             break
                           }
                           if (
-                            'function' == typeof (S = R.value).options.validate
+                            'function' == typeof (M = R.value).options.validate
                           ) {
                             t.next = 57
                             break
                           }
                           return t.abrupt('continue', 62)
                         case 57:
-                          return (t.next = 59), S.options.validate(m.context)
+                          return (t.next = 59), M.options.validate(m.context)
                         case 59:
                           if ((k = t.sent)) {
                             t.next = 62
@@ -1126,19 +1126,19 @@
                           if (
                             ((t.prev = 93),
                             (t.t2 = t.catch(28)),
-                            'ERR_REDIRECT' !== (M = t.t2 || {}).message)
+                            'ERR_REDIRECT' !== (S = t.t2 || {}).message)
                           ) {
                             t.next = 98
                             break
                           }
                           return t.abrupt(
                             'return',
-                            this.$nuxt.$emit('routeChanged', e, n, M)
+                            this.$nuxt.$emit('routeChanged', e, n, S)
                           )
                         case 98:
                           return (
                             (x = []),
-                            Object(f.i)(M),
+                            Object(f.i)(S),
                             'function' ==
                               typeof (P = (d.a.options || d.a).layout) &&
                               (P = P(m.context)),
@@ -1146,8 +1146,8 @@
                             this.loadLayout(P)
                           )
                         case 104:
-                          this.error(M),
-                            this.$nuxt.$emit('routeChanged', e, n, M),
+                          this.error(S),
+                            this.$nuxt.$emit('routeChanged', e, n, S),
                             r()
                         case 107:
                         case 'end':
@@ -1176,7 +1176,7 @@
               )
             })
           }
-          function S(t) {
+          function M(t) {
             this._hadError &&
               this._dateLastError === this.$options.nuxt.dateErr &&
               this.error()
@@ -1207,11 +1207,11 @@
                     })
                   }
                 }),
-                  S.call(n, t)
+                  M.call(n, t)
               })
             }
           }
-          function M(t) {
+          function S(t) {
             window.onNuxtReadyCbs.forEach(function(e) {
               'function' == typeof e && e(t)
             }),
@@ -1240,7 +1240,7 @@
                               v.afterEach(R),
                               v.afterEach(N.bind(n)),
                               o.a.nextTick(function() {
-                                M(n)
+                                S(n)
                               })
                           }),
                           (t.next = 6),
@@ -1270,7 +1270,7 @@
                       case 16:
                         ;(l = function() {
                           R(v.currentRoute, v.currentRoute),
-                            S.call(n, v.currentRoute),
+                            M.call(n, v.currentRoute),
                             r()
                         }),
                           E.call(n, v.currentRoute, v.currentRoute, function(
@@ -1302,10 +1302,10 @@
     },
     13: function(t, e, n) {
       'use strict'
-      n(35), n(95), n(42), n(36), n(20), n(68)
+      n(35), n(95), n(42), n(36), n(20), n(69)
       var r = n(5),
         o = n(57),
-        c = (n(69), n(1)),
+        c = (n(59), n(1)),
         l = n(100),
         f = n(72),
         d = n.n(f),
@@ -1376,37 +1376,58 @@
         },
         routes: [
           {
+            path: '/article',
+            component: function() {
+              return Object(x.j)(n.e(4).then(n.bind(null, 212)))
+            },
+            name: 'article'
+          },
+          {
             path: '/company',
             component: function() {
-              return Object(x.j)(n.e(2).then(n.bind(null, 199)))
+              return Object(x.j)(n.e(5).then(n.bind(null, 216)))
             },
             name: 'company'
           },
           {
             path: '/contact',
             component: function() {
-              return Object(x.j)(n.e(3).then(n.bind(null, 200)))
+              return Object(x.j)(n.e(6).then(n.bind(null, 217)))
             },
             name: 'contact'
           },
           {
             path: '/recruit',
             component: function() {
-              return Object(x.j)(n.e(5).then(n.bind(null, 201)))
+              return Object(x.j)(n.e(8).then(n.bind(null, 213)))
             },
             name: 'recruit'
           },
           {
             path: '/service',
             component: function() {
-              return Object(x.j)(n.e(6).then(n.bind(null, 197)))
+              return Object(x.j)(n.e(9).then(n.bind(null, 214)))
             },
             name: 'service'
           },
           {
+            path: '/article/20200401',
+            component: function() {
+              return Object(x.j)(n.e(2).then(n.bind(null, 218)))
+            },
+            name: 'article-20200401'
+          },
+          {
+            path: '/article/20200402',
+            component: function() {
+              return Object(x.j)(n.e(3).then(n.bind(null, 219)))
+            },
+            name: 'article-20200402'
+          },
+          {
             path: '/',
             component: function() {
-              return Object(x.j)(n.e(4).then(n.bind(null, 198)))
+              return Object(x.j)(n.e(7).then(n.bind(null, 215)))
             },
             name: 'index'
           }
@@ -1607,7 +1628,7 @@
           null
         ).exports,
         R = (n(96), n(97), n(98), n(37)),
-        S = {
+        M = {
           name: 'Nuxt',
           components: { NuxtChild: k, NuxtError: T },
           props: {
@@ -1676,7 +1697,7 @@
           }
         },
         N =
-          (n(59),
+          (n(60),
           {
             name: 'NuxtLoading',
             data: function() {
@@ -1816,7 +1837,7 @@
               )
             }
           }),
-        M =
+        S =
           (n(150),
           Object(E.a)(N, void 0, void 0, !1, null, null, null).exports),
         P =
@@ -1964,6 +1985,25 @@
                               )
                             ],
                             1
+                          ),
+                          r(
+                            'li',
+                            { staticClass: 'headerMenuItem' },
+                            [
+                              r(
+                                'n-link',
+                                {
+                                  attrs: { to: '/article' },
+                                  nativeOn: {
+                                    click: function(e) {
+                                      return t.initHamburgerMenuDisplay(e)
+                                    }
+                                  }
+                                },
+                                [t._v('ARTICLE')]
+                              )
+                            ],
+                            1
                           )
                         ])
                       : t._e()
@@ -1975,7 +2015,7 @@
             [],
             !1,
             null,
-            '24a91f1c',
+            '266fb242',
             null
           ).exports),
         L = { components: { Logo: D, Heading: n(73).a } },
@@ -2073,6 +2113,16 @@
                                 ])
                               ],
                               1
+                            ),
+                            n(
+                              'li',
+                              { staticClass: 'footerNavItem' },
+                              [
+                                n('n-link', { attrs: { to: '/article' } }, [
+                                  t._v('ARTICLE')
+                                ])
+                              ],
+                              1
                             )
                           ])
                         ])
@@ -2105,7 +2155,7 @@
                 ],
                 !1,
                 null,
-                'b4c71822',
+                '695194e2',
                 null
               ).exports
             }
@@ -2336,7 +2386,7 @@
               )
             }
           },
-          components: { NuxtLoading: M }
+          components: { NuxtLoading: S }
         }
       function U() {
         return (U = Object(r.a)(
@@ -2354,7 +2404,7 @@
                       'serviceWorker is not supported in current browser!'
                     )
                   case 2:
-                    return (t.next = 4), n.e(9).then(n.bind(null, 196))
+                    return (t.next = 4), n.e(12).then(n.bind(null, 211))
                   case 4:
                     return (
                       (e = t.sent),
@@ -2440,7 +2490,7 @@
         ),
         c.a.component(k.name, k),
         c.a.component('NChild', k),
-        c.a.component(S.name, S),
+        c.a.component(M.name, M),
         c.a.use(l.a, {
           keyName: 'head',
           attribute: 'data-n-head',
@@ -2624,7 +2674,7 @@
     160: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
-        '.header[data-v-24a91f1c]{border-bottom:1px solid #d6d8dc;position:fixed;width:100%;top:0;background:#fff;z-index:100}.header .headerContents[data-v-24a91f1c]{max-width:1040px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center}.header .headerMenuItem a[data-v-24a91f1c]{text-decoration:none;color:#040e17;font-size:14px}.header .headerMenuItem a[data-v-24a91f1c]:hover{color:#144877}@media screen and (min-width:720px){.header .humburger[data-v-24a91f1c]{display:none}.header .headerMenu[data-v-24a91f1c]{display:flex}.header .headerMenu .headerMenuItem[data-v-24a91f1c]{margin-left:20px}}@media screen and (max-width:719px){.header .headerMenu[data-v-24a91f1c]{display:block;width:100%;text-align:right;position:absolute;top:79px;right:0;padding-right:20px;border-bottom:1px solid #d6d8dc;background:#fff;z-index:100}.header .headerMenu .headerMenuItem[data-v-24a91f1c]{display:block;margin:2em 0}}',
+        '.header[data-v-266fb242]{border-bottom:1px solid #d6d8dc;position:fixed;width:100%;top:0;background:#fff;z-index:100}.header .headerContents[data-v-266fb242]{max-width:1040px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center}.header .headerMenuItem a[data-v-266fb242]{text-decoration:none;color:#040e17;font-size:14px}.header .headerMenuItem a[data-v-266fb242]:hover{color:#144877}@media screen and (min-width:720px){.header .humburger[data-v-266fb242]{display:none}.header .headerMenu[data-v-266fb242]{display:flex}.header .headerMenu .headerMenuItem[data-v-266fb242]{margin-left:20px}}@media screen and (max-width:719px){.header .headerMenu[data-v-266fb242]{display:block;width:100%;text-align:right;position:absolute;top:79px;right:0;padding-right:20px;border-bottom:1px solid #d6d8dc;background:#fff;z-index:100}.header .headerMenu .headerMenuItem[data-v-266fb242]{display:block;margin:2em 0}}',
         ''
       ]),
         (t.exports = e)
@@ -2650,7 +2700,7 @@
     164: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
-        '.footer[data-v-b4c71822]{margin-top:60px}.information[data-v-b4c71822]{background:#2b3137;color:#fff;padding:80px 0}.wrapper[data-v-b4c71822]{max-width:1040px;margin:0 auto;padding:0 20px}.contactTo[data-v-b4c71822]{margin-top:30px;font-size:14px}.contactTo .or[data-v-b4c71822]{display:inline-block;margin:0 1em}.contactTo .link[data-v-b4c71822]{text-decoration:underline;color:#fff}.footerContents[data-v-b4c71822]{margin-top:60px;font-size:14px;display:flex;justify-content:space-between}.footerContents .address[data-v-b4c71822]{margin-top:20px;line-height:24px}.footerContents .address .postalCode[data-v-b4c71822]{display:block}.footerContents .address .building[data-v-b4c71822]{display:inline-block}.footerContents .footerNavItem[data-v-b4c71822]{margin:0 0 15px}.footerContents .footerNavItem a[data-v-b4c71822]{color:#fff;text-decoration:none}@media screen and (max-width:719px){.footerContents[data-v-b4c71822]{display:block}.footerContents .footerNav[data-v-b4c71822]{display:none}}.copyright[data-v-b4c71822]{font-size:14px;color:#fff;height:50px;background:#040e17;display:flex;align-items:center;justify-content:center}',
+        '.footer[data-v-695194e2]{margin-top:60px}.information[data-v-695194e2]{background:#2b3137;color:#fff;padding:80px 0}.wrapper[data-v-695194e2]{max-width:1040px;margin:0 auto;padding:0 20px}.contactTo[data-v-695194e2]{margin-top:30px;font-size:14px}.contactTo .or[data-v-695194e2]{display:inline-block;margin:0 1em}.contactTo .link[data-v-695194e2]{text-decoration:underline;color:#fff}.footerContents[data-v-695194e2]{margin-top:60px;font-size:14px;display:flex;justify-content:space-between}.footerContents .address[data-v-695194e2]{margin-top:20px;line-height:24px}.footerContents .address .postalCode[data-v-695194e2]{display:block}.footerContents .address .building[data-v-695194e2]{display:inline-block}.footerContents .footerNavItem[data-v-695194e2]{margin:0 0 15px}.footerContents .footerNavItem a[data-v-695194e2]{color:#fff;text-decoration:none}@media screen and (max-width:719px){.footerContents[data-v-695194e2]{display:block}.footerContents .footerNav[data-v-695194e2]{display:none}}.copyright[data-v-695194e2]{font-size:14px;color:#fff;height:50px;background:#040e17;display:flex;align-items:center;justify-content:center}',
         ''
       ]),
         (t.exports = e)
@@ -2690,7 +2740,7 @@
       var content = n(160)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
-      ;(0, n(15).default)('d51eead8', content, !0, { sourceMap: !1 })
+      ;(0, n(15).default)('3fd40593', content, !0, { sourceMap: !1 })
     },
     54: function(t, e, n) {
       var content = n(162)
@@ -2702,7 +2752,7 @@
       var content = n(164)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
-      ;(0, n(15).default)('375cdee4', content, !0, { sourceMap: !1 })
+      ;(0, n(15).default)('68a882ac', content, !0, { sourceMap: !1 })
     },
     56: function(t, e, n) {
       var content = n(166)
@@ -2883,5 +2933,5 @@
       e.a = component.exports
     }
   },
-  [[103, 7, 1, 8]]
+  [[103, 10, 1, 11]]
 ])

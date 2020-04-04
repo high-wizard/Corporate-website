@@ -1,5 +1,5 @@
 ;(window.webpackJsonp = window.webpackJsonp || []).push([
-  [2],
+  [5],
   {
     167: function(t, e, n) {
       var content = n(169)
@@ -83,17 +83,17 @@
       e.a = component.exports
     },
     171: function(t, e, n) {
-      var content = n(173)
+      var content = n(175)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
       ;(0, n(15).default)('72f91ded', content, !0, { sourceMap: !1 })
     },
-    172: function(t, e, n) {
+    174: function(t, e, n) {
       'use strict'
       var r = n(171)
       n.n(r).a
     },
-    173: function(t, e, n) {
+    175: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
         '.companyOverviewTable[data-v-65acd344]{font-size:14px;color:#040e17}@media screen and (max-width:539px){.companyOverviewTable .tr[data-v-65acd344]{display:flex;flex-direction:column}.companyOverviewTable .tr .td[data-v-65acd344]{margin-top:10px}}.companyOverviewTable .tr:not(:first-of-type) .th[data-v-65acd344]{padding-top:20px}.companyOverviewTable .th[data-v-65acd344]{text-align:left;font-weight:700;padding-right:20px}.companyOverviewTable td[data-v-65acd344]{line-height:1.5}.companyOverviewTable .building[data-v-65acd344]{display:inline-block}',
@@ -101,15 +101,15 @@
       ]),
         (t.exports = e)
     },
-    174: function(t, e, n) {
-      var content = n(183)
+    176: function(t, e, n) {
+      var content = n(192)
       'string' == typeof content && (content = [[t.i, content, '']]),
         content.locals && (t.exports = content.locals)
       ;(0, n(15).default)('b022fd1e', content, !0, { sourceMap: !1 })
     },
-    181: function(t, e, n) {
+    186: function(t, e, n) {
       'use strict'
-      n(172)
+      n(174)
       var r = n(6),
         component = Object(r.a)(
           {},
@@ -173,12 +173,12 @@
         )
       e.a = component.exports
     },
-    182: function(t, e, n) {
+    191: function(t, e, n) {
       'use strict'
-      var r = n(174)
+      var r = n(176)
       n.n(r).a
     },
-    183: function(t, e, n) {
+    192: function(t, e, n) {
       ;(e = n(14)(!1)).push([
         t.i,
         '.companyPhilosophy[data-v-0aa73c7a]{padding:0 20px;max-width:1040px;width:calc(100% - 40px);margin:0 auto}.companyPhilosophy .english[data-v-0aa73c7a]{margin-top:60px;font-weight:700;color:#144877;font-size:18px;line-height:1.6}.companyPhilosophy .japanese[data-v-0aa73c7a]{margin-top:30px;color:#686e73;font-size:14px;line-height:1.7}@media screen and (max-width:349px){.companyPhilosophy .japanese[data-v-0aa73c7a]{font-size:12px}}.companyOverview[data-v-0aa73c7a]{margin-top:120px;padding:0 20px}.companyOverview .companyOverviewTable[data-v-0aa73c7a]{margin:60px auto 0}.access[data-v-0aa73c7a]{margin-top:120px}.access .gmap[data-v-0aa73c7a]{margin-top:60px;width:100%}',
@@ -186,12 +186,12 @@
       ]),
         (t.exports = e)
     },
-    199: function(t, e, n) {
+    216: function(t, e, n) {
       'use strict'
       n.r(e)
       var r = n(170),
         o = n(73),
-        c = n(181),
+        c = n(186),
         l = {
           components: { HeroView: r.a, Heading: o.a, CompanyOverview: c.a },
           head: function() {
@@ -207,7 +207,7 @@
             }
           }
         },
-        d = (n(182), n(6)),
+        d = (n(191), n(6)),
         component = Object(d.a)(
           l,
           function() {
